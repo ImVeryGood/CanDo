@@ -1,0 +1,13 @@
+ext {
+    version = [
+            sdk  : 28,
+            min  : 16,
+            build: "28.0.0"
+    ]
+    android = [
+            compileSdkVersion: version.sdk,
+            minSdkVersion    : version.min,
+            targetSdkVersion : version.sdk,
+    ]
+    dependencies = []
+}

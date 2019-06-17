@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/grayCc</item>
+        <item name="colorControlActivated">@color/themeColor</item>
+        <item name="colorAccent">@color/themeColor</item>
+    </style>
+    <style name="Widget.Design.TextInputLayout" parent="AppTheme">
+        <item name="hintTextAppearance">@style/FloatingStyle</item>
+    </style>
+    <!--设置悬浮字的颜色以及字号-->
+    <style name="FloatingStyle" parent="TextAppearance.Design.Hint">
+        <item name="android:textColor">@color/themeColor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!--设置错误提示的theme-->
+    <style name="AppTheme.TextErrorAppearance" parent="TextAppearance.Design.Error">
+        <!-- Error message appearance here -->
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

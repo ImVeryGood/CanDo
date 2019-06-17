@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@color/mainButton"
+    tools:context="com.component.MainActivity">
+
+    <Button
+        android:id="@+id/change_theme"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/mainButton"
+        android:text="@string/change_theme" />
+    <Button
+        android:id="@+id/change_theme_reset"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/mainButton"
+        android:text="@string/change_theme_reset" />
+    <Button
+        android:id="@+id/change_recover"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/dp_10"
+        android:background="@color/mainButton"
+        android:text="@string/open" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/pic"/>
+</LinearLayout>

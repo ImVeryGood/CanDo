@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AndroidComponent</string>
+    <string name="change_theme">ChangeTheme</string>
+    <string name="change_recover">ChangeRecover</string>
+    <string name="open">Open</string>
+    <string name="change_theme_reset">change_theme_reset</string>
+    <string name="user">请输入账号</string>
+    <string name="password">请输密码</string>
+    <string name="login_text">登录</string>
+    <string name="register_text">注册</string>
+    <string name="code_text">请输入验证码</string>
+    <string name="confirm_password">再次输入密码</string>
+    <string name="tips_code">请输入验证码</string>
+    <string name="tips_code_error">输入验证码错误</string>
+    <string name="tips_empty">账号或密码不能为空</string>
+    <string name="tips_no_equals">两次密码输入不一致请重新输入</string>
+    <string name="register_success">注册成功</string>
+    <string name="icon_eye_see">&#xe607;</string>
+    <string name="icon_eye_close">&#xe606;</string>
+    <string name="google_phone">&#xe601;</string>
+    <string name="back">&#xe513;</string>
+</resources>
