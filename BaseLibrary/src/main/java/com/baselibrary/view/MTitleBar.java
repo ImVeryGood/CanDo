@@ -44,7 +44,6 @@ public class MTitleBar extends RelativeLayout {
         iconfontTextView.setTextSize(leftIconSize);
     }
 
-
     public void backClick(OnClickListener onClickListener) {
         iconfontTextView.setOnClickListener(onClickListener);
     }

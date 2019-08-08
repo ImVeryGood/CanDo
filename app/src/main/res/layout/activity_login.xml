@@ -6,7 +6,7 @@
     android:background="@color/white"
     android:fitsSystemWindows="true"
     android:orientation="vertical"
-    tools:context=".app.user.ui.LoginActivity">
+    tools:context=".app.user.ui.activity.LoginActivity">
 
     <com.component.utils.IconfontTextView
         android:layout_width="wrap_content"

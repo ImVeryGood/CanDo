@@ -1,4 +1,4 @@
-package com.component.bean;
+package com.component.app.home.bean;
 
 import java.util.List;
 

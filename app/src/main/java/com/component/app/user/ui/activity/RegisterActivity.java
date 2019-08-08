@@ -1,5 +1,6 @@
-package com.component.app.user.ui;
+package com.component.app.user.ui.activity;
 
+import android.content.Intent;
 import android.support.design.widget.TextInputEditText;
 import android.view.View;
 import android.widget.Button;
@@ -9,6 +10,7 @@ import com.baselibrary.mvp.BaseActivity;
 import com.baselibrary.utils.CodeUtils;
 import com.baselibrary.view.MTitleBar;
 import com.component.R;
+import com.component.app.main.MainActivity;
 import com.component.app.user.presenter.RegisterPresenter;
 import com.component.app.user.view.RegisterView;
 import com.component.utils.IconfontTextView;
@@ -90,6 +92,7 @@ public class RegisterActivity extends BaseActivity<RegisterPresenter> implements
     @Override
     public void registerSuccess() {
         ToastUtils.showToast(this, R.string.register_success);
+        startActivity(new Intent(RegisterActivity.this, MainActivity.class));
     }
 
     @Override

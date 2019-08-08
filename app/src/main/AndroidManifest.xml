@@ -16,11 +16,12 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".app.user.ui.RegisterActivity"></activity>
-        <activity android:name=".MainActivity" />
-        <activity android:name=".app.user.ui.LoginActivity">
+        <activity android:name=".app.user.ui.activity.LoginActivity"></activity>
+        <activity android:name=".app.user.ui.activity.RegisterActivity" />
+        <activity android:name=".ThemeActivity" />
+        <activity android:name=".app.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

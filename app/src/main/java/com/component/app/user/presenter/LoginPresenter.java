@@ -11,10 +11,8 @@ import com.baselibrary.service.MObserver;
 import com.component.R;
 import com.component.app.user.bean.LoginBean;
 import com.component.app.user.view.LoginView;
-import com.component.bean.BannerBean;
 import com.component.net.RetrofitManage;
 import com.component.utils.IconfontTextView;
-import com.google.gson.Gson;
 
 /**
  * date:2019/6/10

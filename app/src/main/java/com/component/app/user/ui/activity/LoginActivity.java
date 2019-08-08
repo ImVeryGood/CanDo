@@ -1,12 +1,12 @@
-package com.component.app.user.ui;
+package com.component.app.user.ui.activity;
 
 import android.content.Intent;
 import android.support.design.widget.TextInputEditText;
 import android.view.View;
 
 import com.baselibrary.mvp.BaseActivity;
-import com.component.MainActivity;
 import com.component.R;
+import com.component.app.main.MainActivity;
 import com.component.app.user.presenter.LoginPresenter;
 import com.component.app.user.view.LoginView;
 import com.component.utils.IconfontTextView;

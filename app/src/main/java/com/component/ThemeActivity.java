@@ -10,8 +10,7 @@ import com.baselibrary.mvp.BasePresenter;
 import com.baselibrary.service.ApiManager;
 import com.baselibrary.service.MObserver;
 import com.baselibrary.skin.SkinManager;
-import com.baselibrary.utils.NotificationDialogUtils;
-import com.component.bean.BannerBean;
+import com.component.app.home.bean.BannerBean;
 import com.component.net.RetrofitManage;
 import com.google.gson.Gson;
 
@@ -21,7 +20,7 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 
-public class MainActivity extends BaseActivity {
+public class ThemeActivity extends BaseActivity {
 
     @BindView(R.id.change_theme)
     Button changeTheme;
@@ -30,7 +29,7 @@ public class MainActivity extends BaseActivity {
 
     @Override
     public int getLayoutId() {
-        return R.layout.activity_main;
+        return R.layout.activity_theme;
     }
 
     @Override

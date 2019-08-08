@@ -2,8 +2,9 @@ package com.component.service;
 
 
 import com.baselibrary.service.BaseBean;
+import com.component.app.home.bean.ArticleBean;
 import com.component.app.user.bean.LoginBean;
-import com.component.bean.BannerBean;
+import com.component.app.home.bean.BannerBean;
 
 import io.reactivex.Observable;
 import retrofit2.http.GET;
@@ -47,4 +48,12 @@ public interface MService {
      */
     @GET("/banner/json")
     Observable<BannerBean> bannerData();
+
+    /**
+     * 首页文章列表
+     *
+     * @return
+     */
+    @GET("article/list/0/json")
+    Observable<ArticleBean> articleBean();
 }
